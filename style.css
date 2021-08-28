@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+.menu{
+    width: 100%;
+    height: 120px;
+    background-color: #ff0000;
+    display: flex;
+    justify-content:space-between;
+
+    
+}
+
+.menu .logo {
+
+    padding-left: 20px;
+    padding-top: 15px;
+
+}
+
+.menu .itens{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    padding-top: 50px;
+
+}
+.menu  .itens p {
+    color:aliceblue; 
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.menu  .itens p:hover  {
+    color: rgb(0, 0, 0);
+    transition: .5s;
+}
+
+.banner1 {
+    display: flex; 
+    justify-content: space-between;
+}
+.banner1 img {
+    width: 600px;
+
+}
